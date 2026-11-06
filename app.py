@@ -1,3 +1,3 @@
-import stremlit as st
+import streamlit as st
 st.title("Study AI")
 st.write("Welcome to your AI-power study ai assistant")
