@@ -10,8 +10,8 @@ api_key = st.text_input("🔑 Enter Gemini API Key:", type="password")
 
 if api_key:
     genai.configure(api_key=api_key)
-    # Using gemini-1.5 pro for general text Q&A
-    model = genai.GenerativeModel("gemini-1.5 pro")
+    # Using gemini-1.5-pro for general text Q&A
+    model = genai.GenerativeModel("gemini-1.5-pro")
 
     # User query input
     user_question = st.text_area(
